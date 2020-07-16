@@ -1,12 +1,25 @@
-import React from 'react';
-import { Redirect } from 'react-router-dom'
+import React, { useState, useEffect } from "react";
 import './App.css';
 import Header from './components/Header/Header.jsx'
-import Axios from 'axios';
+import NewSong from './components/NewSong/NewSong.jsx'
+import axios from "axios";
+
 
 function App() {
-  const [faves, setFaves] = useState(false)
+  const [songs, setSongs] = useState([]);
 
+  useEffect(() => {
+    const makeAPICall = async () => {
+      try {
+        const res = await axios(`https://tunr4.herokuapp.com/api/songs/`);
+        setSongs(res.data);
+      } catch (err) {
+        console.error(err);
+      }
+    };
+    makeAPICall();
+  }, []);
+  
   toggleFavorite = (id) => {
     // e.preventDefault()
 
@@ -18,14 +31,11 @@ function App() {
       .then(() => setFaves(!faves))
       .catch(console.error)
   }
-  // Not sure if you want this functionality.
-  // if (faves) {
-  //   return <Redirect to={`/songs/${props.match.params.id}`} />
-  // }
-
+  
   return (
     <div className="App">
       <Header />
+      <NewSong />
     </div>
   );
 }
