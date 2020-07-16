@@ -5,7 +5,6 @@ import "./App.css";
 import Header from "./components/Header/Header.jsx";
 import Playlist from './components/Playlist/Playlist'
 import Favorites from './components/Favorites/Favorites'
-import Header from './components/Header/Header.jsx'
 import NewSong from './components/NewSong/NewSong.jsx'
 
 
