@@ -4,15 +4,18 @@ import './Playlist.css'
 
 const Playlist = ({ songs, toggleFavorite, deleteSong }) => {
     return (
-        <div className='playlist-container'>
-        {
-            songs.map(
-                (song) => {
-                    return <Song toggleFavorite={toggleFavorite} deleteSong={deleteSong} />
-                }
-            )
-        }
-        </div>
+        <>
+            <h3>Playlist</h3>
+            <div className='playlist-container'>
+            {
+                songs.map(
+                    (song) => {
+                        return <Song song={song} toggleFavorite={toggleFavorite} deleteSong={deleteSong} />
+                    }
+                )
+            }
+            </div>
+        </>
     )
 }
 export default Playlist;

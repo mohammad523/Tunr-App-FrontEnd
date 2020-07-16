@@ -12,8 +12,8 @@ const Song = ({ song, toggleFavorite, deleteSong }) => {
             <div className='song-item song-title'>{song.title}</div>
             <div className='song-item song-artist'>{song.artist}</div>
             <div className='song-item song-time'>{time}</div>
-            <button className={`song-button song-favorite ${song.isFavorite?'favorite':''}`} onClick={toggleFavorite}>❤</button>
-            <button className='song-button song-remove' onClick={deleteSong}>X</button>
+            <button className={`song-button song-favorite ${song.isFavorite?'favorite':''}`} onClick={() => toggleFavorite(song._id)}>❤</button>
+            <button className='song-button song-remove' onClick={() => deleteSong(song._id)}>X</button>
         </div>
     )
 }
