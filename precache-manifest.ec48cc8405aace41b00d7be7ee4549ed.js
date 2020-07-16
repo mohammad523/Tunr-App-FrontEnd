@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82009e8af82e00d405dc6d244afb1709",
+    "revision": "3dee700fc8c077d2e902c56d9c3efb53",
     "url": "/Tunr-App-FrontEnd/index.html"
   },
   {
-    "revision": "ec5ad5eb08ea72e8e54a",
+    "revision": "01e02636ae56549496e7",
     "url": "/Tunr-App-FrontEnd/static/css/main.f6cffc85.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Tunr-App-FrontEnd/static/js/2.e03356e1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec5ad5eb08ea72e8e54a",
-    "url": "/Tunr-App-FrontEnd/static/js/main.da4e9ec3.chunk.js"
+    "revision": "01e02636ae56549496e7",
+    "url": "/Tunr-App-FrontEnd/static/js/main.216d45aa.chunk.js"
   },
   {
     "revision": "a3508ad4a7083b759fd1",

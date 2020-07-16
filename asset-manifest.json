@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Tunr-App-FrontEnd/static/css/main.f6cffc85.chunk.css",
-    "main.js": "/Tunr-App-FrontEnd/static/js/main.da4e9ec3.chunk.js",
-    "main.js.map": "/Tunr-App-FrontEnd/static/js/main.da4e9ec3.chunk.js.map",
+    "main.js": "/Tunr-App-FrontEnd/static/js/main.216d45aa.chunk.js",
+    "main.js.map": "/Tunr-App-FrontEnd/static/js/main.216d45aa.chunk.js.map",
     "runtime-main.js": "/Tunr-App-FrontEnd/static/js/runtime-main.f2a78ce4.js",
     "runtime-main.js.map": "/Tunr-App-FrontEnd/static/js/runtime-main.f2a78ce4.js.map",
     "static/js/2.e03356e1.chunk.js": "/Tunr-App-FrontEnd/static/js/2.e03356e1.chunk.js",
     "static/js/2.e03356e1.chunk.js.map": "/Tunr-App-FrontEnd/static/js/2.e03356e1.chunk.js.map",
     "index.html": "/Tunr-App-FrontEnd/index.html",
-    "precache-manifest.74e2bad0eb165d9ac01a1b4bb1fa81e2.js": "/Tunr-App-FrontEnd/precache-manifest.74e2bad0eb165d9ac01a1b4bb1fa81e2.js",
+    "precache-manifest.ec48cc8405aace41b00d7be7ee4549ed.js": "/Tunr-App-FrontEnd/precache-manifest.ec48cc8405aace41b00d7be7ee4549ed.js",
     "service-worker.js": "/Tunr-App-FrontEnd/service-worker.js",
     "static/css/main.f6cffc85.chunk.css.map": "/Tunr-App-FrontEnd/static/css/main.f6cffc85.chunk.css.map",
     "static/js/2.e03356e1.chunk.js.LICENSE.txt": "/Tunr-App-FrontEnd/static/js/2.e03356e1.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f2a78ce4.js",
     "static/js/2.e03356e1.chunk.js",
     "static/css/main.f6cffc85.chunk.css",
-    "static/js/main.da4e9ec3.chunk.js"
+    "static/js/main.216d45aa.chunk.js"
   ]
 }
