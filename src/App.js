@@ -7,15 +7,15 @@ import Axios from 'axios';
 function App() {
   const [faves, setFaves] = useState(false)
 
-  toggleFavorite = (e) => {
-    e.preventDefault()
+  toggleFavorite = (id) => {
+    // e.preventDefault()
 
     Axios({
-      url: `https://tunr4.herokuapp.com/api/songs/${props.match.params.id}`,
+      url: `https://tunr4.herokuapp.com/api/songs/${id}`,
       method: 'PUT',
       data: song
     })
-      .then(() => setFaves(true))
+      .then(() => setFaves(!faves))
       .catch(console.error)
   }
   // Not sure if you want this functionality.
