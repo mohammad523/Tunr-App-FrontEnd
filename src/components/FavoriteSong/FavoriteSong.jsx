@@ -12,7 +12,7 @@ const FavoriteSong = ({ song, toggleFavorite }) => {
             <div className='song-item song-title'>{song.title}</div>
             <div className='song-item song-artist'>{song.artist}</div>
             <div className='song-item song-time'>{time}</div>
-            <button className={`song-button song-favorite ${song.isFavorite?'favorite':''}`} onClick={toggleFavorite}>❤</button>
+            <button className={`song-button song-favorite ${song.isFavorite?'favorite':''}`} onClick={() => toggleFavorite(song._id)}>❤</button>
         </div>
     )
 }

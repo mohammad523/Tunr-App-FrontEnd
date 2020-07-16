@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 import "./App.css";
 import Header from "./components/Header/Header.jsx";
-import axios from "axios";
+import Playlist from './components/Playlist/Playlist'
+import Favorites from './components/Favorites/Favorites'
 
 function App() {
   const [songs, setSongs] = useState([]);
@@ -21,6 +23,8 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Playlist songs={songs} />
+      <Favorites songs={songs.filter(song=>song.isFavorite)}/>
     </div>
   );
 }

@@ -1,18 +1,21 @@
 import React from 'react'
-import Song from '../Song/Song'
+import FavoriteSong from '../FavoriteSong/FavoriteSong'
 import './Favorites.css'
 
 const Favorites = ({ songs, toggleFavorite, deleteSong }) => {
     return (
-        <div className='favorites-container'>
-        {
-            songs.map(
-                (song) => {
-                    return <Song toggleFavorite={toggleFavorite} deleteSong={deleteSong} />
-                }
-            )
-        }
-        </div>
+        <>
+            <h3>Favorite Songs</h3>
+            <div className='favorites-container'>
+            {
+                songs.map(
+                    (song) => {
+                        return <FavoriteSong song={song} toggleFavorite={toggleFavorite} deleteSong={deleteSong} />
+                    }
+                )
+            }
+            </div>
+        </>
     )
 }
 export default Favorites;
