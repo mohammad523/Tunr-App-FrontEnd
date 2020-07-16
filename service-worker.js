@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Tunr-App-FrontEnd/precache-manifest.30eef5ca3c3f7854100513714ef765ef.js"
+  "/Tunr-App-FrontEnd/precache-manifest.c76007173714255c6202baec40238b06.js"
 );
 
 self.addEventListener('message', (event) => {
